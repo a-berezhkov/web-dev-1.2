@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<title>Главная</title>
+	</head>
+	<body>
+		<header>
+			<div class="logo">
+				<img src="img/logo.png" alt="logo">
+			</div>
+			<nav>
+				<a href="#Aksii">Акции</a>
+				<a href="#Poisk">Поиск</a>
+				<a href="">Личный кабинет</a>
+			</nav>
+		</header>
+		<section id="infograf">
+			<h2 class="h2">Как получить кэш-бэк</h2>
+			<div class="infograf_img">
+				<img src="img/indog.png" alt="infograf">
+			</div>
+		</section>
+		<section id="Aksii">
+			<h2 class="h2">Акции</h2>
+			<div class="boxs-box">
+				<div class="box">
+					<img src="img/sale_1.png" alt="Aksii_img">
+					<h3>Кэшбэк 5%</h3>
+					<p>Вернем 5% от стоимости при заказе билета в нашем мобильном приложении!</p>
+					<button>Просмотр</button>
+				</div>
+				<div class="box">
+					<img src="img/sale_2.png" alt="Aksii_img">
+					<h3>Покупай больше - плати меньше</h3>
+					<p>При покупке четырех билетов в одном чеке - скидка 5%</p>
+					<button>Просмотр</button>
+				</div>
+			</div>	
+		</section>
+		<section id="Poisk">
+			<h2 class="h2">Поиск</h2>
+			<form>
+				<label for="date1">Дата от</label>
+				<input type="date" id="date1">
+				<label for="date2">Дата до</label>
+				<input type="date" id="date2">
+				<label for="typeK">Тип концерта</label>
+				<input list="typeK" id="typeK">
+				<datalist id="typeK">
+					<option>Классика</option>
+					<option>Рок</option>
+					<option>Джаз</option>
+					<option>Народная/фолк</option>
+					<option>Хип-хоп</option>
+					<option>Другое</option>
+				</datalist>
+				<label for="number">Количество гостей</label>
+				<input type="number" id="number" max="5" min="1">
+				<a href="html/search.html">Поиск</a>
+			</form>
+		</section>
+		<section id="Otzv">
+			<h2 class="h2">Отзывы</h2>
+			<div class="boxs-box">
+				<div class="box">
+					<img src="img/person_2.jpg" alt="Otzv_img">
+					<h3>Рок-концерт</h3>
+					<p>Мне все понравилось. Советую сходить.</p>
+				</div>
+				<div class="box">
+					<img src="img/person_1.jpg" alt="Otzv_img">
+					<h3>Мистери-концерт</h3>
+					<p>Мне все понравилось. Советую сходить.</p>
+				</div>
+				<div class="box">
+					<img src="img/person_3.jpg" alt="Otzv_img">
+					<h3>Джаз-концерт</h3>
+					<p>Мне все понравилось. Советую сходить.</p>
+				</div>
+				<div class="box">
+					<img src="img/person_4.jpg" alt="Otzv_img">
+					<h3>Мир-концерт</h3>
+					<p>Мне все понравилось. Советую сходить.</p>
+				</div>
+			</div>
+		</section>
+		<section id="Podpiska">
+			<h2 class="h2">Подписка на закрытые акции</h2>
+			<form>
+				<label for="email1">Ваш email</label>
+				<input type="email" id="email1" placeholder="email">
+				<button>Подписаться</button>
+			</form>
+		</section>
+		<footer>
+			<a href="tel:88002892010">Телефон “8 (800) 289-20-10”</a>
+			<a href="#Aksii">Акции</a>
+			<a href="#Poisk">Поиск</a>
+			<a href="">Личный кабинет</a>
+		</footer>
+	</body>
+</html>

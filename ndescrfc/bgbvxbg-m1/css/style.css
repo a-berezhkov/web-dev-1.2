@@ -1,0 +1,174 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "GardensC";
+}
+@font-face{
+	font-family: "GardensC";
+	src:url("../fonts/GardensC.otf")
+}
+
+body{
+	width: 1440px;
+}
+
+header{
+	display: flex;
+	background-color: #ffaa05;
+	margin-left: 200px;
+	justify-content: space-around;
+	width: 1440px;
+}
+
+header a{
+	margin-top: 40px;
+	font-size: 23px;
+	text-decoration:none;
+	color: black;
+}
+header p{
+	margin-top: 40px;
+	font-size: 23px;
+}
+
+h1{
+	text-align: center;
+
+}
+
+
+.vera{
+margin-left: 400px;
+background-image: url('../img/pexels-do-the-lan-1293551.jpg');
+color: white;
+text-align: center;
+}
+
+
+.poisk{
+	margin-left: 700px;
+
+}
+
+.poisk p{
+	font-size: 18px;
+}
+
+.poisk h1{
+	margin-right:400px;
+}
+
+.poisk a{
+ text-decoration:none;
+ color:black;
+}
+.akcii{
+	margin-left: 400px;
+
+}
+.akcii img{
+	width: 240px;
+	height: 90px;
+
+}
+
+.lot1 p{
+	padding-left: 90px;
+	padding-top: 50px;
+}
+
+.lot1{
+	
+	display: flex;
+}
+
+.zakr{
+	margin-left: 800px;
+}
+
+
+
+
+
+footer{
+	background-color: #ffaa05;
+	width: 1440px;
+	display: flex;
+	
+	margin-left: 200px;
+	justify-content: space-around;
+}
+
+footer a{
+	margin-top: 40px;
+	font-size: 23px;
+text-decoration:none;
+	color: black;
+}
+
+footer p{
+	margin-top: 40px;
+	font-size: 23px;
+}
+
+
+.bileti img{
+ margin-left:400px; 
+ }
+
+
+.bileti h1{
+text-align:center; 
+margin-left:400px;
+ }
+
+.bileti h2{
+text-align:center; 
+margin-left:400px;
+ }
+
+.bileti a{ 
+text-decoration:none;
+color:black;
+
+ }
+
+.but{ 
+margin:0 auto; 
+margin-left:400px;
+}
+
+
+
+
+.bileti { 
+ text-decoration:none;
+ color: black;
+ text-align:center;
+ }
+
+.bileti p{ 
+text-align:center;
+margin-left:400px;
+ }
+
+ .styl{
+ 	display: flex;
+ 	margin-left: 800px;
+ 	padding: 20px;
+ 	color:black;
+ }
+
+ .styl h1{
+ 	margin-left: 10px;
+ 	color:black;
+ }
+ .styl a{
+ 	text-decoration: none;
+ 	color: black;
+
+ }
+
+ .foto{
+ 	margin-left: 800px;
+ }

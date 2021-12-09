@@ -1,0 +1,274 @@
+
+
+body{
+	padding: 0 auto;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+.header{
+	margin: 0 auto;
+	width: 1440px;
+	max-width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.header__img{
+	background-image: url("../img/logo.png");
+	width: 100px;
+	height: 100px;
+	background-size: 100px 100px;
+}
+.header__nav{
+	width: 1000px;
+	max-width: 70%;
+	display: flex;
+	justify-content: space-between;
+	font-size: 36px;
+}
+
+hr{
+	width: 1440px;
+	height: 4px;
+	background-color: black;
+	padding: 0;
+	margin: 0 auto;
+	border: 0;
+
+}
+
+.zak{
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	max-width: 100%;
+	width: 1440px;
+	height: 350px;
+	background-image: url(../img/fon1.jpg);
+	background-size: 1440px;
+	background-position: 0px 0px;
+	border-radius: 20px;
+}
+
+.zak__text{
+	padding: 20px;
+	font-size: 72px;
+	color: white;
+}
+
+.zak__button{
+	height: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.zak__button button{
+	
+	width: 250px;
+	height: 100px;
+	border-radius: 50px;
+	font-size: 46px;
+	transition: 0.5s;
+}
+
+.zak__button button:hover{
+	width: 280px;
+	height: 120px;
+	background-color: black;
+	transition: 0.5s;
+	color: white;
+	border-radius: 60px;
+}
+
+.akcii{
+	width: 1440px;
+	max-width: 100%;
+	margin: 0 auto;
+	margin-bottom: 60px;
+}
+
+.akcii__name{
+	margin-top: 60px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 52px;
+
+}
+
+.akcii__spisok{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.akcii__block1{
+	width: 400px;
+	height: 600px;
+	background-image: url(../img/fon2.jpg);
+	background-repeat: no-repeat;
+	background-size: auto 600px;
+	background-position: 0px 0px;
+	font-size: 26px;
+	color: white;
+}
+.akcii__block2{
+	width: 400px;
+	height: 600px;
+	background-image: url(../img/fon2.jpg);
+	background-repeat: no-repeat;
+	background-size: auto 600px;
+	background-position: -270px 0px;
+	font-size: 26px;
+	color: white;
+}
+.akcii__block3{
+	width: 400px;
+	height: 600px;
+	background-image: url(../img/fon2.jpg);
+	background-repeat: no-repeat;
+	background-size: auto 600px;
+	background-position: -500px 0px;
+	font-size: 26px;
+	color: white;
+}
+
+.akcii__block-text{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 600px;
+	width: 360px;
+	margin:20px;
+	
+	padding-bottom: 40px;
+	text-align: center;
+	font-size: 42px;
+}
+
+.us{
+	margin: 0 auto;
+	width: 1440px;
+	max-width: 100%;
+	background-image: url(../img/fon3.jpg);
+	display: flex;
+	justify-content: center;
+}
+
+.us__text h1{
+	font-size: 72px;
+	text-align: center;
+
+}
+
+.us__text{
+	font-size: 62px;
+	text-align: center;
+	width: 1000px;
+	max-width: 100%;
+	color: white;
+	padding-bottom: 30px;
+}
+
+.footer{ 
+	margin: 0 auto;
+	margin-top: 40px;
+	width: 1440px;
+	background-color: black;
+	min-height: 300px;
+	color: white;
+ }
+
+ .footer__nav{
+ 	margin: 0 auto;
+	width: 1440px;
+	max-width: 70%;
+	display: flex;
+	justify-content: space-between;
+	font-size: 42px;
+}
+
+.footer__tel{ 
+	font-size: 46px;
+	padding-top: 50px;
+	text-align: center;
+ }
+
+.poisk{ 
+	width: 1440px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.poisk__name{ 
+	display: flex;
+	margin-bottom: 30px;
+ }
+
+.poisk__name input{ 
+	margin: 0 auto;
+	border-radius: 50px;
+	height: 70px;
+	width: 980px;
+	font-size: 42px;
+	padding-left: 20px;
+}
+
+.poisk__inputs{ 
+	margin: 0 auto;
+	width: 1000px;
+ }
+
+.poisk__inputs-para{ 
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+ }
+
+ .poisk__inputs-para input{ 
+
+	border-radius: 50px;
+	height: 70px;
+	width: 450px;
+	font-size: 42px;
+	padding-left: 20px;
+}
+
+.poisk__button{ 
+	height: 130px;
+	width: 1440px;
+	max-width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.poisk__button button{ 
+	width: 300px;
+	height: 90px;
+	border-radius: 30px;
+	font-size: 46px;
+	color: black;
+	background-color: white;
+}
+
+.poisk__button button:hover{ 
+	width: 320px;
+	height: 100px;
+	transition: 0.2s
+}
+
+.poisk__button button:active{ 
+	width: 280px;
+	height: 80px;
+	font-size: 42px;
+	transition: 0.1s
+}
+
+.result{ 
+
+}

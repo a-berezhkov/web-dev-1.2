@@ -1,0 +1,350 @@
+body{
+	margin: 0;
+}
+header{
+	width: auto;
+	height: 200px;
+	background-image: url("../img/pexels-thibault-trillet-167486.jpg");
+	background-repeat: no-repeat;
+
+}
+.heads{
+	width: 1100px;
+	margin: 0 auto;	
+	padding-top: 70px;
+	display: flex;
+	justify-content: space-between;
+}
+.heads ul{
+	list-style: none;
+}
+.heads ul a{
+	font-size: 30px;
+	text-decoration: none;
+	color:white;
+	text-align: center; 
+}
+.logo{
+	font-size: 40px;
+}
+.heads a {
+	text-decoration: none;
+	color:white; 
+	text-align: center;
+}
+.headerLeft{
+	display: flex;
+	width: 600px;
+	justify-content: space-between;
+}
+section#nadeshonst{
+	width: 1100px;
+	margin: 150px auto;
+}
+section#nadeshonst h1{
+	text-align: center;
+	font-size: 40px;
+}
+.blockNads{
+	width: 700px;
+	margin: 0 auto;
+	border-radius: 20px;
+	background-image: url("../img/pexels-suvan-chowdhury-144428.jpg");
+	height: 400px;
+	background-position: 50% 50%;
+	background-size: cover;
+}
+.blockNads p{
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	padding-top: 150px;
+	width: 500px;
+	margin:  auto;
+}
+section#poisk{
+	width: 1100px;
+	margin: 150px auto;
+}
+section#poisk h1{
+	text-align: center;
+	font-size: 40px;
+}
+.blockpoisk{
+	width: 400px;
+	margin: 0 auto;
+	border-radius: 20px;
+	background-image: url("../img/pexels-josh-sorenson-995301.jpg");
+	height: 560px;
+	background-position: 50% 50%;
+	background-size: cover;
+}
+.blockpoisk form{
+	padding-top: 50px;
+	text-align: center;
+	color: white;
+	}
+.blockpoisk form input{
+	background-color: #5d5458;
+	color: white;
+	border: none;
+	width: 200px;
+	height: 30px;
+	margin: 20px auto;
+	}
+	.blockpoisk form label{
+	font-size: 30px;
+		color: white;
+		text-align: center;
+		margin: 20px auto;
+	}
+.btn{
+	background-color: #290e1a;
+	width: 150px;
+	height: 40px;
+	text-align: center;
+	color: white;
+	border: none;
+	border-radius: 10px;	
+}
+.btn a{	
+	text-decoration: none;
+	color: white;
+}
+section#actii{
+	width: 900px;
+	margin: 150px auto;
+}
+section#actii h1{
+	text-align: center;
+	font-size: 40px;
+}
+.card{
+	margin-top: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+.card img{
+	width: 300px;
+	height: 250px;	
+	padding-top: 20px;
+}
+.textcard{
+	width: 500px;
+	text-align: center;
+	color: black;
+}
+.textcard h2{
+	font-size: 35px;
+}
+.textcard p{
+	font-size: 30px;
+
+}
+.bths{
+	width: 200px;
+	height: 40px;
+	background-color: black;
+	color: white;
+	border: none;
+	text-align: center;
+	font-size: 30px;
+}
+section#podpiska{
+	width: 900px;
+	margin: 150px auto;
+}
+section#podpiska h1{
+	text-align: center;
+	font-size: 40px;
+}
+.formpod{
+	width: 1100px;
+	margin: 0 auto;
+
+}
+.bodyform{
+	padding-top: 30px;
+	width: 500px;
+	margin: 0 auto;
+	background-color: black;
+	text-align: center; 
+	height: 150px;
+
+}
+.formpod input{
+	background-color: white;
+	color: black;
+	border: none;
+	width: 300px;
+	height: 30px;
+	margin: 20px auto;
+	}
+.formpod label{
+	font-size: 30px;
+		color: white;
+		text-align: center;
+		margin: 20px auto;
+	}
+.buttons{
+	width: 200px;
+	margin: 50px auto;
+}
+footer{
+	height: 200px;
+	background-color: black;
+}
+.blockfooter{
+	width: 1100px;
+	color: white;
+	font-size: 25px;
+	margin: 0 auto;
+}
+.blockfooter ul{
+	list-style: none;
+}
+.blockfooter ul a{
+	text-decoration: none;
+	color:white;
+	text-align: center; 
+}
+.blockfooter li{
+	margin: 10px 0;
+}
+.headerLefts{
+	padding-top: 30px;
+	width: 500px;
+}
+section#resultpoisk{
+	width: 900px;
+	margin: 150px auto;
+}
+section#resultpoisk h1{
+	text-align: center;
+	font-size: 40px;
+}
+.bodyposik{
+	padding-top: 30px;
+	width: 700px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 25px;
+	color: black;
+	height: 410px;
+	background-color: rgb(0,0,0,0.2);
+	border-radius: 20px;
+}
+.buttonsr{
+	    display: flex;
+    width: 500px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.btnr{
+	width: 200px;
+	height: 40px;
+	background-color: black;
+	color: white;
+	border: none;
+	border-radius: 15px;
+	text-align: center;
+	font-size: 30px;
+}
+.btnr a{	
+	text-decoration: none;
+	color: white;
+}
+section#sakas{
+	width: 900px;
+	margin: 150px auto;
+}
+section#sakas h1{
+	text-align: center;
+	font-size: 50px;
+}
+.bodysakas{
+	padding-top: 30px;
+	width: 700px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 25px;
+	height: 900px;
+	color: black;
+	background-color: rgb(0,0,0,0.2);
+	border-radius: 20px;
+}
+.bodysakas p{
+	margin: 10px 0;
+}
+
+.bodysakas input{
+	background-color: white;
+	color: black;
+	border: none;
+	width: 250px;
+	height: 30px;
+	}
+
+.btnrs{
+	margin: 50px;
+	border-radius: 15px;
+	width: 200px;
+	height: 50px;
+	background-color: white;
+	color: black;
+	border: none;
+	text-align: center;
+	font-size: 30px;
+}
+.btnrs a{	
+	text-decoration: none;
+color: black;
+font-size: 25px;
+}
+section#change{
+	width: 900px;
+	margin: 150px auto;
+}
+section#change h1{
+	text-align: center;
+	font-size: 50px;
+}
+.bodycnahe input{
+	width: 25px;
+	height: 25px;
+	margin: 20px 25px 20px 20px;
+	background-color: grey;
+}
+.bodycnahe span{
+	font-size: 30px;
+	margin: 20px 0;
+}
+.btnrsa{
+	margin: 50px;
+	border-radius: 10px;
+	width: 200px;
+	height: 50px;
+	background-color:black;
+	color: white;
+	border: none;
+	text-align: center;
+	font-size: 30px;
+}
+.checss{
+	justify-content: space-between;
+	display: flex;
+	width: 500px;
+	margin: 0 auto;
+}
+.btnrsa a{	
+	text-decoration: none;
+color: white;
+font-size: 25px;
+}
+.buttonch{
+	margin: 0 auto;
+	width: 300px;
+}
+.rad{
+	width: 130px;
+}

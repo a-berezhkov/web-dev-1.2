@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+    font-family: GardensC;
+}
+
+@font-face {
+    font-family: GardensC; /* Имя шрифта */
+    src: url(fonts/GardensC.otf); /* Путь к файлу со шрифтом */
+   }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.footers{
+    width: 100%;
+}
+
+.footer_nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav{
+    padding-top: 30px;
+}
+
+.nav_btn{
+    margin-right: 50px;
+}
+
+.logo{
+    text-align: center;
+}
+
+.footer_content{
+    background-color: #eae3e3;
+}
+
+
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home_content{
+    text-align: center;
+    margin-top: 20%;
+}
+
+.search_content{
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    background-color: #eae3e3;
+    padding: 50px 0px 30px 30px;
+}
+
+.search_form_inp{
+    padding: 10px 00px;
+    margin-left: 15px;
+}
+
+.search_btn{
+    margin-top: 30px;
+    margin-left: 300px;
+    padding: 10px 10px;
+}
+
+.header{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 42px;
+}
+
+.sale_trade{
+    margin-top: 50px;
+    width: 300px;
+}
+
+.sale_head{
+    font-weight: 600;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.sale_text{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.sale_btn{
+    padding: 10px 10px;
+    margin-top: 50px;
+    margin-left: 110px;
+}
+
+.sale_btns{
+    padding: 10px 10px;
+
+}
+
+
+.sale_forms{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form_sub_sale{
+    margin-top: 80px;
+    background-color: #eae3e3;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60px 60px 60px 60px;
+}
+
+.form_email{
+    padding: 10px 60px;
+}
+
+.btn_sub{
+    padding: 10px 30px;
+    margin-left: 50px;
+}
+
+.container_full{
+    background-color: #eae3e3;
+    height: 100px;
+    padding-bottom: 50px;
+}
+
+.podval_content{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.podval_menu{
+    margin-top: 30px;
+    display: grid;
+}
+
+.contants{
+    margin-top: 50px;
+}
+
+.podval_hrf{
+    margin-top: 10px;
+}
+
+.form_search_content_oth{
+    display: flex;
+    justify-content: space-around;
+}
+
+.form_search_content_oth_content{
+    margin-top: 100px;
+    width: 350px;
+    height: 200px;
+    background-color: #eae3e3;
+    text-align: center;
+}
+
+.num_cons{
+    padding-top: 30px;
+}
+
+.name_cons{
+    padding-top: 10px;
+}
+
+.date_cons{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn_sear{
+    margin-top: 30px;
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+}

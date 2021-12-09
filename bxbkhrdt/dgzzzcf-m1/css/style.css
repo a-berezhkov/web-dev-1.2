@@ -1,0 +1,163 @@
+@font-face {
+    font-family: "GardensC";
+    src: url(../fonts/GardensC.otf);
+}
+body {
+    margin: 0 auto;
+}
+header{
+    margin: 0 auto;
+}
+.nav {
+    margin: 0 auto;
+    background-image: url(../img/bg.jpg);
+    height: 810px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.nav_menu {
+    padding-top: 25px;
+}
+.nav_menu ul {
+    width: 810px;
+    margin: 0 auto;
+    padding-top: 30px;
+    list-style-type: none;
+    font-family:"GardensC";
+    color: white;
+    font-size:30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.nav_menu h1 {
+    margin: 0 auto;
+    padding-top: 150px;
+    color:white;
+    font-family: "GardensC";
+    font-size: 100px;
+    align-items: center;
+    text-align: center;
+}
+.nav_menu p {
+    margin: 0 auto;
+    padding-top: 50px;
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    font-family: "GardensC";
+    text-transform: uppercase;
+}
+
+.text_AboutUs h1{
+    padding-top: 50px;
+    text-align: center;
+    align-items: center;
+    font-family: "GardensC";
+    font-size: 40px;
+    color: #e46133;
+}
+.text_AboutUs p{
+    padding-top: 30px;
+    text-align: center;
+    align-items: center;
+    font-family: "GardensC";
+    font-size: 30px;
+}
+
+.why_AboutUs h1{
+    padding-top: 10px;
+    text-align: center;
+    align-items: center;
+    font-family: "GardensC";
+    font-size: 40px;
+    color: #e46133;
+}
+
+.why_AboutUs ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.why_AboutUs {
+    padding-top: 40px;
+    font-family: "GardensC";
+    font-size: 30px;
+}
+
+.score h1 {
+    padding-top: 50px;
+    text-align: center;
+    align-items: center;
+    font-family: "GardensC";
+    font-size: 40px;
+    color: #e46133;
+}
+.card_score {
+    padding-top: 50px;
+    margin: 0 auto;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.card_score ul{
+    margin: 0 auto;
+    list-style-type: none;
+}
+.card_score ul li{
+    font-family: "GardensC";
+    font-size: 30px;
+}
+
+.form_search h1{
+    padding-top: 50px;
+    text-align: center;
+    align-items: center;
+    font-family: "GardensC";
+    font-size: 40px;
+    color: #e46133;
+}
+
+.form_search form {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-end;
+    flex-direction: column;
+    padding-top: 20px;
+    margin:0 auto;
+    height: 200px;
+    width: auto;
+}
+
+.form_search form input{
+    margin-top: 20px;
+    color: black;
+    border-color: #e46133;
+    border-radius: 10px;
+    height: 50px;
+    width: 300px;
+}
+.form_search form button {
+    margin-top: 20px;
+    color: black;
+    background-color:#e46133;
+    border-radius: 10px;
+    height: 30px;
+    width: 200px;
+}
+
+.stock h1{
+	padding-top: 50px;
+    text-align: center;
+    align-items: center;
+    font-family: "GardensC";
+    font-size: 40px;
+    color: #e46133;
+}

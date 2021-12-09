@@ -1,0 +1,82 @@
+header{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	text-align: center;
+	align-items: center;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	margin:10px;
+	padding:10px;
+}
+.infograf_img{
+	text-align: center;
+}
+.infograf_img img{
+	width:60%;
+}
+.boxs-box{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.box{
+
+width: 300px;
+text-align: center;
+align-items: center;
+margin: 20px;
+}
+.box img{
+width:40%;
+}
+.btn, form a, button{
+background-color: black;
+color: white;
+}
+.btn:hover, form a:hover, button:hover{
+border: 1 solid black;
+background-color: white;
+color:black;
+}
+form{
+
+text-align: center;
+align-items: center;
+background-color: grey;
+}
+input{
+padding:20px;
+border:0;
+margin:30px;
+text-align: center;
+}
+footer{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+.bilet_blog img{
+	width:80%;
+}
+section{
+	text-align: center;
+	align-items: center;
+}
+.h2{
+	text-align: center;
+}
+.btn{
+	margin-top:30px;
+}
+fieldset{
+	background-color: white;
+}
+.shem_mest{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}

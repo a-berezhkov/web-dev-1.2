@@ -1,0 +1,117 @@
+
+html {
+	margin: 0;
+}
+body {
+	margin: 0;
+}
+
+
+#menu {
+
+	margin:0;
+	padding: 0;
+	list-style-type: none;
+}
+.nav li{
+	display: inline;
+}
+
+.navv {
+background-color: black;
+height: 80px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding-right: 30px;
+
+}
+
+.bg{
+background-image: url("../Site/img/pexels-josh-sorenson-995301.jpg");
+height: 700px;
+background-repeat: no-repeat; 
+background-position: top;
+
+
+}
+#menu  a:hover {
+	color: grey;
+	
+}
+
+.logo{
+
+position: absolute;
+height: 100px;
+width:100px;
+
+
+}
+
+.nav{
+position: absolute;
+width: 500px;
+padding-left: 700px;
+padding-top: 40px;
+
+
+}
+
+.container{
+	width: 1100px;
+	margin: auto;
+}
+
+.box1{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.box1 h {
+	font-size: 30px;
+	font-family: ;
+}
+.box1 p {
+	
+}
+hr {
+	border: 2px solid black;
+	
+	width: 250px;
+}
+.box11 ol li{
+	list-style-type: none;
+}
+.box1 ul li{
+	list-style-type: none;
+}
+.text-center{
+
+	text-align: center;
+}
+
+.box13 {
+    padding-top: 50px;
+}
+
+section#sect1 .box1  ul {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.boxZagl {
+    padding-top: 150px;
+}
+.boxZagl h{
+   font-size: 45px;
+   color:white;
+}
+.boxZagl p{
+   font-size: 30px;
+   color:white;
+}
